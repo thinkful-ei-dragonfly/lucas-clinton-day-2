@@ -95,21 +95,20 @@ function testEmpty(fn) {
 // Compute the average
 
 function average(numbers) {
-  let total = numbers[0];
+  let total = 0;
   numbers.forEach(element => {
-    console.log(`total = ${total} element is ${element}`)
-    total += element
-    return total
+    console.log(`total = ${total} element is ${element}`);
+    total += element;
   });
   return total / numbers.length;
 }
 
-/* From here down, you are not expected to 
-   understand.... for now :)  
-   
-   
+/* From here down, you are not expected to
+   understand.... for now :)
+
+
    Nothing to see here!
-   
+
 */
 
 // tests
